@@ -13,7 +13,10 @@
   "license": "ISC",
   "author": "",
   "scripts": {
+    "start" : "parcel index.html --open",
+    "build": "parcel build index.html",
     "test": "jest"
+
   },
   "devDependencies": {
     "parcel": "^2.16.1"
